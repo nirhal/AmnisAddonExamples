@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="addons.subtitles.bsplayersubtitles"
+       name="BSPlayerSubtitles"
+       version="1.0"
+	   type="Subtitles"
+       icon="bs_logo.png">
+	   
+  <module script="service.lua" >
+      <object type="SubtitlesService" name="BSPlayerSubsServiceObj" />
+      <object type="SettingsBuilder" name="BSPlayerSubsSettingsObj" />
+  </module>
+
+  <description>Subtitles service from BSPlayer-Subtitles.com</description>
+  <license></license>
+  <disclaimer></disclaimer>
+  <website></website>
+  <email></email>
+  
+  
+  
+</addon>

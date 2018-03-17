@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="addons.subtitles.opensubtitles"
+       name="OpenSubtitles"
+       version="1.0"
+	   type="Subtitles"
+       icon="opensubtitles_logo.png">
+
+  <module script="service.lua" >
+    <object type="SubtitlesService" name="openSubsService" />
+    <object type="SettingsBuilder" name="openSubsSettings" />
+  </module>
+
+  <description>Subtitles service from OpenSubtitles.org</description>
+  <license></license>
+  <disclaimer><a href="https://www.opensubtitles.org/disclaimer">Click here</a></disclaimer>
+  <website>https://www.opensubtitles.org</website>
+  <email>admin@opensubtitles.org</email>
+  
+  
+  
+</addon>

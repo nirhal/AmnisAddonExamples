@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="addons.subtitles.example"
+    name="Subtitles Example"
+    version="1.0"
+    type="Subtitles"
+    icon="icon.png">
+
+    <module script="service.lua" >
+        <object type="SubtitlesService" name="subtitlesExampleService" />
+        <object type="SettingsBuilder" name="subtitlesExampleSettings" />
+    </module>
+
+    <description>Example for subtitles service</description>
+    <license></license>
+    <disclaimer></disclaimer>
+    <website></website>
+    <email></email>
+
+
+
+</addon>

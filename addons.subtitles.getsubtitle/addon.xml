@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="addons.subtitles.getsubtitle"
+       name="GetSubtitle"
+       version="1.0"
+	   type="Subtitles">
+
+  <module script="service.lua" >
+    <object type="SubtitlesService" name="getSubsService" />
+  </module>
+
+  <description>Subtitles service from GetSubtitle.com</description>
+  <license></license>
+  <disclaimer></disclaimer>
+  <website></website>
+  <email></email>
+  
+  
+  
+</addon>
